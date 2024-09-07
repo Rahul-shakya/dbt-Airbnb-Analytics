@@ -1,3 +1,8 @@
+{{
+    config(
+        materialized = 'view'
+    )
+}}
 WITH src_listings AS
 (
     SELECT * FROM {{ ref('src_listings') }}
@@ -14,4 +19,5 @@ SELECT
     REPLACE(price_str, '$', '') :: NUMBER(10, 2) AS price,
     created_at,
     updated_at
-FROM src_listings
+FROM 
+    src_listings
