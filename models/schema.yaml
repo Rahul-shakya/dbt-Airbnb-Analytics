@@ -20,3 +20,9 @@ models:
         tests:
           - accepted_values:
               values: ['Entire home/apt', 'Private room', 'Shared room', 'Hotel room']
+
+      # generic test for checking minimum nights column. Check positive_value.sql
+      # in macros folder
+      - name: minimum_nights
+        tests:
+          - positive_value
