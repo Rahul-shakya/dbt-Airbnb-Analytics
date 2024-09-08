@@ -8,5 +8,5 @@
         invalidate_hard_deletes = True
     )
 }}
-select * FROM {{ source('airbnb', 'listings') }}
+SELECT * FROM {{ source('airbnb', 'listings') }}
 {% endsnapshot %}
