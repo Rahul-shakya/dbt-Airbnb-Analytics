@@ -39,3 +39,9 @@ models:
               quantile: .99
               min_value: 50
               max_value: 500
+            
+          # this test states that max value for price shouldbe between 5k and 09k
+          # We can also specify a min_value, the max value was 8k in DWH
+          - dbt_expectations.expect_column_max_to_be_between:
+              min_value: 5000
+              max_value: 9000
