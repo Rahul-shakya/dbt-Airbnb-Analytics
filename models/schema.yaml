@@ -31,3 +31,11 @@ models:
     tests:
       - dbt_expectations.expect_table_row_count_to_equal_other_table:
           compare_model: source('airbnb', 'listings')
+    columns:
+      - name: price
+        tests:
+          # this test checks that 99% values in price column are between 50 and 500
+          - dbt_expectations.expect_column_quantile_values_to_be_between:
+              quantile: .99
+              min_value: 50
+              max_value: 500
