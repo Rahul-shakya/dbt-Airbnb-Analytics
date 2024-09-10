@@ -1,3 +1,6 @@
+{#  These models dont show up in Snowflake WH because the materialization level
+    has been set to ephemeral. #}
+
 with raw_reviews AS (
     SELECT * FROM {{ source('airbnb', 'reviews') }}
 )
