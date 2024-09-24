@@ -9,11 +9,13 @@
   </a>
 <br>
 
-This project is aimed at learning dbt and build dbt data models for analytics enginnering performed on Snowflake datawarehouse
+This project is aimed at performing Analytics Engineering on Airbnb data using dbt data models created on Snowflake datawarehouse
 </br>
 ### Key tasks include:
 - **Data Import & Transformation:** Import Airbnb data into a Snowflake data warehouse, clean, transform, and prepare it for DBT
 - **Pipeline Creation:** Build a well-tested, organized data pipeline that handles dependencies, version control, and error alerts
 - **Data Quality:** Implement data quality checks, manage incremental tables, and handle slowly changing dimensions for historical tracking
+- **History Tracking:** Implement history tracking by creating SCD Type2 tables 
+- **Dependency Management:** Manage dependencies between models
 
 ### Steps:
