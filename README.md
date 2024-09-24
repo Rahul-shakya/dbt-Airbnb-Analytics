@@ -19,3 +19,9 @@ This project is aimed at performing Analytics Engineering on Airbnb data using d
 - **Dependency Management:** Manage dependencies between models
 
 ### Steps:
+- **Setup connection with Snowflake and import the dataset:** 
+- **Create models:** 
+- **Creae materializations:** 
+- **Create Snaphots:** 
+- **Create Tests:**
+- **Implement debugging and logging:**
