@@ -34,3 +34,11 @@ This project is aimed at performing Analytics Engineering on Airbnb data using d
   
   <img src="https://github.com/Rahul-shakya/dbt-Airbnb-Analytics/blob/main/images/lineage.png" > 
   </a>
+
+
+## **Source models**
+- ##### src_hosts
+- ##### src_raw_lisitngs
+- ##### src_listings
+- ##### src_reviews
+
