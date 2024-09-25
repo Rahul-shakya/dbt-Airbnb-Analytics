@@ -25,3 +25,12 @@ This project is aimed at performing Analytics Engineering on Airbnb data using d
 - **Create Snaphots:** 
 - **Create Tests:**
 - **Implement debugging and logging:**
+
+
+  <a>
+<!--     <img src="images/dbt.png" alt="Logo" width="350" height="150"> -->
+ 
+  ## Data Lineage/Flow -- 
+  
+  <img src="https://github.com/Rahul-shakya/dbt-Airbnb-Analytics/blob/main/images/lineage.png" > 
+  </a>
